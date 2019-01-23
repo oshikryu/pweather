@@ -1,0 +1,32 @@
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav ul a {
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background: antiquewhite;
+  margin: 5px;
+}
+
+p#debug::after {
+  content: 'homescreen';
+}
+@media (display-mode: standalone) {
+  p#debug::after {
+    content: 'standalone pda';
+  }
+
+}

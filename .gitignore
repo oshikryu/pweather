@@ -1,0 +1,12 @@
+# External modules folder
+node_modules/
+
+# Log files
+npm-debug.log
+yarn-error.log
+
+# Cache files
+.DS_Store
+
+# Artifact
+*.DS_Store

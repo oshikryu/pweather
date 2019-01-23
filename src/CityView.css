@@ -1,0 +1,9 @@
+h2#city {
+    text-align: center;
+}
+
+#temperature {
+    text-align: center;
+    font-size: 3em;    
+    margin: 5px;
+}
